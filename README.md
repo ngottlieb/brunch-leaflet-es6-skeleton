@@ -23,13 +23,6 @@ Clone this repo manually or use `brunch new dir -s leaflet`
 ## LeafletJS
 
 The skeleton ships with an example LeafletJS map defined in `app/map.js` and rendered in `index.html`. You can easily
-modify or expand upon this map to suit your own purposes.
+modify or expand this map to suit your purposes.
 
 Leaflet has a [bunch of great tutorials](https://leafletjs.com/examples.html).
-
-## ES-next
-
-To use proposed JS features not included into ES6, do this:
-
-* `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['latest', 'stage-0']`
