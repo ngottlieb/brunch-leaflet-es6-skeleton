@@ -19,7 +19,7 @@
     "babel-preset-latest": "^6",
     "brunch": "^2",
     "clean-css-brunch": "^2",
-    "copycat-brunch": "^1.1.0",
+    "copycat-brunch": "git+ssh://git@github.com/cmelgarejo/copycat-brunch.git",
     "uglify-js-brunch": "^2"
   }
 }
