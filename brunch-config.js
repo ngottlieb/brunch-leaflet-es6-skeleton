@@ -10,5 +10,16 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['latest']}
+  babel: { presets: ['latest'] },
+  copycat: {
+    "images": ["app/assets/images", "node_modules/leaflet/dist/images"],
+    verbose: true,
+    onlyChanged: true
+  }
+};
+
+exports.npm = {
+  styles: {
+    'leaflet': ['dist/leaflet.css']
+  },
 };

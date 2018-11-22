@@ -1,6 +1,10 @@
-.brunch {
-  font-family: -apple-system, Sans-Serif;
-  text-align: center;
-  font-size: 24pt;
-  color: #3f894a;
+/* allows Leaflet map to occupy full viewport */
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#mapid {
+  height: 100%;
+  width: 100%;
 }

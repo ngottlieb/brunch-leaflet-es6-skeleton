@@ -1,21 +1,25 @@
 {
-  "name": "brunch-app",
-  "description": "Brunch.io application",
-  "private": true,
-  "author": "Brunch",
+  "name": "site-template",
+  "description": "Brunch.io application template with ES6, Babel, and LeafletJS",
+  "author": "Your Name",
   "version": "0.0.1",
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "leaflet": "^1.3.4",
+    "ncu": "^0.2.1",
+    "npm-check-updates": "^2.14.3"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2",
     "babel-brunch": "~6.0",
     "babel-preset-latest": "^6",
     "brunch": "^2",
     "clean-css-brunch": "^2",
+    "copycat-brunch": "^1.1.0",
     "uglify-js-brunch": "^2"
   }
 }
