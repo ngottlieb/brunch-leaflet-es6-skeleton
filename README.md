@@ -49,7 +49,7 @@ I often run these apps using Github pages, so I'll go through the workflow here.
   * Make and commit your changes
   * Clear out the `public/` dir with `rm -rf public/*`
   * run `npm run build`
-  * move the resulting files out of your working tree temporarily: `mv public ../public`
+  * move the resulting files out of your working tree temporarily: `mv public ../`
   * switch to (or create) your `gh-pages` branch: `git checkout -b gh-pages`
   * remove all files in the repository: `rm -rf *`
   * move the compiled application back into the repository: `mv ../public/* .`
