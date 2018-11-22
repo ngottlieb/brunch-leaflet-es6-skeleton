@@ -4,7 +4,7 @@ This is a skeleton for building map applications with LeafletJS and [Brunch](htt
 
 ## Installation
 
-Clone this repo manually or use `brunch new dir -s leaflet`
+Clone this repo manually or use `brunch new your-project -s ngottlieb/brunch-leaflet-es6-skeleton`
 
 ## Getting started
 
