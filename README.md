@@ -44,12 +44,12 @@ web server for the whole world to see. You can host this just about anywhere, bu
 
 I often run these apps using Github pages, so I'll go through the workflow here.
 
-  * Set up a repository on Github for your new Leaflet app
+  * [Set up a repository on Github](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) for your new Leaflet app
   * Run `npm start` to continuously watch your files and run a webserver for local development
   * Make and commit your changes
   * Clear out the `public/` dir with `rm -rf public/*`
   * run `npm run build`
-  * move the resulting files out of your working repository temporarily: `mv public ../public`
+  * move the resulting files out of your working tree temporarily: `mv public ../public`
   * switch to (or create) your `gh-pages` branch: `git checkout -b gh-pages`
   * remove all files in the repository: `rm -rf *`
   * move the compiled application back into the repository: `mv ../public/* .`
